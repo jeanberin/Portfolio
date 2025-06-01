@@ -51,9 +51,9 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       duration: 'Oct 2024 - Present',
       description: 'Contributed to the development and implementation of critical internal systems, focusing on HR analytics and operational monitoring using Laravel and JavaScript.',
       achievements: [
-        'Developed data-driven dashboards with Google Charts and backend integration via Laravel, streamlining HR analytics for 3000+ employees.',
-        'Engineered a real-time biometric system dashboard with Laravel and JavaScript to monitor uptime/downtime across 130+ site offices.',
-        'Provided technical support during the transition from manual attendance systems to biometric systems with real-time log uploading across multiple offices.',
+        'Developed data-driven dashboards with Google Charts and backend integration via Laravel, streamlining HR analytics for <strong>3000+ employees</strong>.',
+        'Engineered a real-time biometric system dashboard with Laravel and JavaScript to monitor uptime/downtime across <strong>130+ site offices</strong>.',
+        'Provided technical support during the transition from manual attendance systems to biometric systems with real-time log uploading across <strong>multiple offices</strong>.',
       ],
     },
   ],

@@ -1,3 +1,4 @@
+
 import SectionWrapper from '@/components/common/SectionWrapper';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import type { Experience } from '@/types/portfolio';
@@ -29,7 +30,7 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
                   {exp.achievements.map((ach, i) => (
                     <li key={i} className="flex items-start text-sm text-muted-foreground">
                       <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-accent shrink-0" />
-                      {ach}
+                      <span dangerouslySetInnerHTML={{ __html: ach }} />
                     </li>
                   ))}
                 </ul>
