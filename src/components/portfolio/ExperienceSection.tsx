@@ -4,27 +4,12 @@ import type { Experience } from '@/types/portfolio';
 import { Briefcase, CheckCircle } from 'lucide-react';
 
 interface ExperienceSectionProps {
-  overviewText: string;
   experiences: Experience[];
 }
 
-export default function ExperienceSection({ overviewText, experiences }: ExperienceSectionProps) {
+export default function ExperienceSection({ experiences }: ExperienceSectionProps) {
   return (
     <SectionWrapper id="experience" title="Work Experience" subtitle="My professional journey and accomplishments.">
-      <Card className="shadow-lg mb-12">
-        <CardHeader>
-          <CardTitle className="flex items-center text-xl font-headline text-primary">
-            <Briefcase className="mr-2 h-6 w-6" />
-            Experience Overview
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-md leading-relaxed text-foreground whitespace-pre-line">
-            {overviewText}
-          </p>
-        </CardContent>
-      </Card>
-
       <div className="relative space-y-10 before:absolute before:inset-0 before:ml-5 before:h-full before:w-0.5 before:bg-border before:-translate-x-px md:before:mx-auto md:before:translate-x-0">
         {experiences.map((exp, index) => (
           <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">

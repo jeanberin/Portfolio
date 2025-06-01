@@ -70,23 +70,18 @@ export default function PortfolioPageClient() {
         props.content = portfolioState.content.aboutMe;
         break;
       case "Skills":
-        props.overviewText = portfolioState.content.skills;
         props.skills = portfolioState.structuredData.skills;
         break;
       case "Experience":
-        props.overviewText = portfolioState.content.experience;
         props.experiences = portfolioState.structuredData.experience;
         break;
       case "Projects":
-        props.overviewText = portfolioState.content.projects;
         props.projects = portfolioState.structuredData.projects;
         break;
       case "Education":
-        props.overviewText = portfolioState.content.education;
         props.educations = portfolioState.structuredData.education;
         break;
       case "Hobbies":
-        props.overviewText = portfolioState.content.hobbies;
         props.hobbies = portfolioState.structuredData.hobbies;
         break;
       default:

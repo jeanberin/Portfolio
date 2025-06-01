@@ -8,27 +8,12 @@ import { LayoutGrid, Github, ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 interface ProjectsSectionProps {
-  overviewText: string;
   projects: Project[];
 }
 
-export default function ProjectsSection({ overviewText, projects }: ProjectsSectionProps) {
+export default function ProjectsSection({ projects }: ProjectsSectionProps) {
   return (
     <SectionWrapper id="projects" title="My Projects" subtitle="A selection of my recent work and contributions.">
-      <Card className="shadow-lg mb-12">
-        <CardHeader>
-          <CardTitle className="flex items-center text-xl font-headline text-primary">
-            <LayoutGrid className="mr-2 h-6 w-6" />
-            Projects Overview
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-md leading-relaxed text-foreground whitespace-pre-line">
-            {overviewText}
-          </p>
-        </CardContent>
-      </Card>
-
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <Card key={project.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
