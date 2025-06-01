@@ -19,11 +19,11 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'Laravel', iconUrl: '/img/laravel.png', dataAiHint: 'laravel logo' },
-    { name: 'React', iconUrl: '/img/react.png', dataAiHint: 'react logo' },
-    { name: 'JavaScript', iconUrl: '/img/js.jpg', dataAiHint: 'javascript logo' },
-    { name: 'Python', iconUrl: '/img/laravel.jpg', dataAiHint: 'python logo' },
-    { name: 'SQL', iconUrl: '/img/sql.jpg', dataAiHint: 'sql logo' },
+    { name: 'Laravel', iconUrl: '/images/skills/laravel.png', dataAiHint: 'laravel logo' },
+    { name: 'React', iconUrl: '/images/skills/react.png', dataAiHint: 'react logo' },
+    { name: 'JavaScript', iconUrl: '/images/skills/js.jpg', dataAiHint: 'javascript logo' },
+    { name: 'Python', iconUrl: '/images/skills/python.png', dataAiHint: 'python logo' },
+    { name: 'SQL', iconUrl: '/images/skills/sql.png', dataAiHint: 'sql logo' },
     { name: 'MS SQL Server', iconUrl: '/images/skills/mssql.png', dataAiHint: 'mssql logo' },
     { name: 'Bootstrap', iconUrl: '/images/skills/bootstrap.png', dataAiHint: 'bootstrap logo' },
     { name: 'Tailwind CSS', iconUrl: '/images/skills/tailwind.png', dataAiHint: 'tailwind logo' },
@@ -81,7 +81,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       coursework: [], 
     },
     {
-      degree: 'Licensed Electronics Engineer',
+      degree: 'Licensed Electronics Engineer and Electronics Technician',
       institution: 'Professional Regulation Commission',
       year: 'May 2024',
       coursework: [],
