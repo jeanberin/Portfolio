@@ -33,11 +33,6 @@ export default function HeroSection({ content, nextSectionId }: HeroSectionProps
             </Button>
           ))}
         </div>
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <Link href={`#${nextSectionId}`} aria-label="Scroll to next section">
-            <ArrowDown className="h-8 w-8 text-primary hover:text-accent transition-colors" />
-          </Link>
-        </div>
       </div>
     </section>
   );
