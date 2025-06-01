@@ -15,12 +15,12 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
         {skills.map((skill) => (
           <Card key={skill.name} className="hover:shadow-xl transition-shadow duration-300">
             <CardContent className="pt-6 flex flex-col items-center justify-center aspect-square">
-              <div className="relative h-10 w-10 mb-3">
+              <div className="relative h-16 w-16 mb-3">
                 <Image
                   src={skill.iconUrl}
                   alt={`${skill.name} logo`}
-                  width={40}
-                  height={40}
+                  width={48}
+                  height={48}
                   className="object-contain"
                   data-ai-hint={skill.dataAiHint || skill.name.toLowerCase() + " logo"}
                 />

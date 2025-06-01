@@ -19,20 +19,20 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'Laravel', iconUrl: '/img/skills/laravel.png', dataAiHint: 'laravel logo' },
-    { name: 'React', iconUrl: '/img/skills/react.png', dataAiHint: 'react logo' },
-    { name: 'PHP', iconUrl: '/img/skills/php.png', dataAiHint: 'php logo' },
-    { name: 'JavaScript', iconUrl: '/img/skills/js.png', dataAiHint: 'javascript logo' },
-    { name: 'jQuery', iconUrl: '/img/skills/jquery.png', dataAiHint: 'jquery logo' },
-    { name: 'Python', iconUrl: '/img/skills/python.png', dataAiHint: 'python logo' },
-    { name: 'SQL', iconUrl: '/img/skills/sql.png', dataAiHint: 'sql logo' },
-    { name: 'MS SQL Server', iconUrl: '/img/skills/mssql.png', dataAiHint: 'mssql logo' },
-    { name: 'Bootstrap', iconUrl: '/img/skills/bootstrap.png', dataAiHint: 'bootstrap logo' },
-    { name: 'Tailwind CSS', iconUrl: '/img/skills/tailwind.png', dataAiHint: 'tailwind logo' },
-    { name: 'HTML', iconUrl: '/img/skills/html.png', dataAiHint: 'html logo' },
-    { name: 'CSS', iconUrl: '/img/skills/css.png', dataAiHint: 'css logo' },
-    { name: 'Docker', iconUrl: '/img/skills/docker.png', dataAiHint: 'docker logo' },
-    { name: 'Git', iconUrl: '/img/skills/git.png', dataAiHint: 'git logo' },
+    { name: 'Laravel', iconUrl: '/img/laravel.png', dataAiHint: 'laravel logo' },
+    { name: 'React', iconUrl: '/img/react.png', dataAiHint: 'react logo' },
+    { name: 'PHP', iconUrl: '/img/php.png', dataAiHint: 'php logo' },
+    { name: 'JavaScript', iconUrl: '/img/js.png', dataAiHint: 'javascript logo' },
+    { name: 'jQuery', iconUrl: '/img/jquery.png', dataAiHint: 'jquery logo' },
+    { name: 'Python', iconUrl: '/img/python.png', dataAiHint: 'python logo' },
+    { name: 'SQL', iconUrl: '/img/sql.png', dataAiHint: 'sql logo' },
+    { name: 'MS SQL Server', iconUrl: '/img/sql-server.png', dataAiHint: 'mssql logo' },
+    { name: 'Bootstrap', iconUrl: '/img/bootstrap.png', dataAiHint: 'bootstrap logo' },
+    { name: 'Tailwind CSS', iconUrl: '/img/tailwind.png', dataAiHint: 'tailwind logo' },
+    { name: 'HTML', iconUrl: '/img/html.png', dataAiHint: 'html logo' },
+    { name: 'CSS', iconUrl: '/img/css.png', dataAiHint: 'css logo' },
+    { name: 'Docker', iconUrl: '/img/docker.png', dataAiHint: 'docker logo' },
+    { name: 'Git', iconUrl: '/img/git.png', dataAiHint: 'git logo' },
   ],
   experience: [
     {
@@ -51,7 +51,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Coffee Shop Website',
       description: 'A modern and inviting website for a local coffee shop, featuring menu display, online ordering, and location information.',
-      imageUrl: '/img/projects/coffee-shop.png', 
+      imageUrl: '/img/coffee.png', 
       dataAiHint: 'coffee shop website',
       liveUrl: 'https://jeanberin.github.io/Coffee-Shop/',
       repoUrl: 'https://github.com/jeanberin/Coffee-Shop-Website',
@@ -60,7 +60,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Dental Clinic Website',
       description: 'A professional website for a dental clinic, providing information on services, appointment booking, and patient testimonials.',
-      imageUrl: '/img/projects/dental-clinic.png', 
+      imageUrl: '/img/dental.png', 
       dataAiHint: 'dental clinic website',
       liveUrl: 'https://mberin.github.io/',
       repoUrl: 'https://github.com/mberin/mberin.github.io',
@@ -69,7 +69,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Word Search Puzzle Solver',
       description: 'An efficient algorithm and user interface to solve word search puzzles, demonstrating problem-solving and algorithmic thinking.',
-      imageUrl: '/img/projects/word-search.png', 
+      imageUrl: '/img/word.png', 
       dataAiHint: 'word puzzle game',
       liveUrl: 'https://www.youtube.com/watch?v=-rlgEueerH8',
       repoUrl: 'https://github.com/jeanberin/Word-Search-Puzzle-Solver',
@@ -91,9 +91,9 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     },
   ],
   hobbies: [
-    { name: 'Traveling', description: 'Exploring new cultures, cuisines, and landscapes around the world.', imageUrl: 'https://placehold.co/600x400.png', dataAiHint: 'travel destination', icon: Plane },
-    { name: 'Watching Movies', description: 'Enjoying a wide range of films, from classic cinema to modern blockbusters.', imageUrl: 'https://placehold.co/600x400.png', dataAiHint: 'movie cinema', icon: Film },
-    { name: 'Playing Video Games', description: 'Engaging in immersive storytelling and strategic gameplay across various genres.', imageUrl: 'https://placehold.co/600x400.png', dataAiHint: 'video game console', icon: Gamepad2 },
+    { name: 'Traveling', description: 'Exploring new cultures, cuisines, and landscapes around the world.', imageUrl: '/img/travel.jfif', dataAiHint: 'travel destination', icon: Plane },
+    { name: 'Watching Movies', description: 'Enjoying a wide range of films, from classic cinema to modern blockbusters.', imageUrl: '/img/movie.webp', dataAiHint: 'movie cinema', icon: Film },
+    { name: 'Playing Video Games', description: 'Engaging in immersive storytelling and strategic gameplay across various genres.', imageUrl: '/img/forza.jpg', dataAiHint: 'video game console', icon: Gamepad2 },
   ],
 };
 
@@ -104,13 +104,13 @@ export const initialPortfolioState: PortfolioState = {
 };
 
 export const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com/yourusername', icon: Github },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername', icon: Linkedin },
-  { name: 'Email', url: 'mailto:youremail@example.com', icon: Mail },
+  { name: 'GitHub', url: 'https://github.com/jeanberin', icon: Github },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jean-francois-thomas-berin/', icon: Linkedin },
+  { name: 'Email', url: 'mailto:berinjeanfrancoisthomas@gmail.com', icon: Mail },
 ];
 
 export const ctaButtons = [
  { label: 'View Resume', url: '#resume.pdf', icon: FileText, variant: 'default' as const },
- { label: 'Contact Me', url: 'mailto:youremail@example.com', icon: Mail, variant: 'outline' as const},
+ { label: 'Contact Me', url: 'mailto:berinjeanfrancoisthomas@gmail.com', icon: Mail, variant: 'outline' as const},
 ];
 
