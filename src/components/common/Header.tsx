@@ -1,19 +1,18 @@
+
 "use client";
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Sparkles, X } from 'lucide-react';
-import { SECTION_MAP } from '@/types/portfolio';
+import { Menu, X } from 'lucide-react'; // Removed Sparkles as it's no longer used
 import { cn } from '@/lib/utils';
 
 interface HeaderProps {
-  onCustomizeClick: () => void;
   sectionOrder: string[];
 }
 
-export default function Header({ onCustomizeClick, sectionOrder }: HeaderProps) {
+export default function Header({ sectionOrder }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -43,7 +42,7 @@ export default function Header({ onCustomizeClick, sectionOrder }: HeaderProps) 
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <Link href="/" className="text-2xl font-headline font-bold text-primary hover:text-accent transition-colors">
-          DevFolio Spark
+          Your Name
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6">
@@ -56,10 +55,7 @@ export default function Header({ onCustomizeClick, sectionOrder }: HeaderProps) 
               {link.name}
             </Link>
           ))}
-          <Button onClick={onCustomizeClick} variant="default" size="sm">
-            <Sparkles className="mr-2 h-4 w-4" />
-            Customize AI
-          </Button>
+          {/* "Customize AI" button removed */}
         </nav>
 
         <div className="md:hidden">
@@ -73,7 +69,7 @@ export default function Header({ onCustomizeClick, sectionOrder }: HeaderProps) 
               <div className="flex flex-col space-y-6">
                 <div className="flex justify-between items-center">
                    <Link href="/" className="text-xl font-headline font-bold text-primary" onClick={() => setIsMobileMenuOpen(false)}>
-                    DevFolio Spark
+                    Your Name
                   </Link>
                   <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
                     <X className="h-6 w-6" />
@@ -89,10 +85,7 @@ export default function Header({ onCustomizeClick, sectionOrder }: HeaderProps) 
                     {link.name}
                   </Link>
                 ))}
-                <Button onClick={() => { onCustomizeClick(); setIsMobileMenuOpen(false); }} variant="default" className="w-full">
-                  <Sparkles className="mr-2 h-4 w-4" />
-                  Customize with AI
-                </Button>
+                {/* "Customize with AI" button removed from mobile menu */}
               </div>
             </SheetContent>
           </Sheet>

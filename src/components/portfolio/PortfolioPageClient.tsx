@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useMemo, useCallback } from 'react';
@@ -37,6 +38,7 @@ export default function PortfolioPageClient() {
     }));
   }, []);
 
+  // This function is no longer called from the Header, but kept in case it's used elsewhere or for future use.
   const toggleCustomizePane = useCallback(() => {
     setIsCustomizePaneOpen(prev => !prev);
   }, []);
@@ -98,12 +100,13 @@ export default function PortfolioPageClient() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header onCustomizeClick={toggleCustomizePane} sectionOrder={orderedSections} />
+      <Header sectionOrder={orderedSections} />
       <main className="flex-grow">
         <HeroSection content={portfolioState.content} nextSectionId={nextSectionId} />
         {orderedSections.map((sectionName, index) => renderSection(sectionName, index))}
       </main>
       <Footer />
+      {/* AICustomizationPane is still here but its trigger (button in Header) has been removed. */}
       <AICustomizationPane
         currentTextContent={portfolioState.content}
         onCustomizationComplete={handleCustomizationComplete}
