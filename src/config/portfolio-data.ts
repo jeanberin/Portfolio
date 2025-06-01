@@ -9,7 +9,7 @@ import {
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
   heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
-  aboutMe: "As a licensed Electronics Engineer, I discovered my passion for software development and made a dedicated shift into this dynamic field. My engineering background has equipped me with strong analytical and problem-solving skills, which I now apply to building user-friendly, efficient, and visually appealing web applications. I thrive on transforming complex challenges into elegant software solutions and am always eager to learn new technologies and take on innovative projects.",
+  aboutMe: "A licensed Electronics Engineer who discovered a passion for software development. I now apply my strong analytical and problem-solving skills from engineering to build user-friendly, efficient web applications, and I'm always eager to tackle new challenges and technologies.",
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
   projects: "My project portfolio includes diverse applications like a coffee shop website, a dental clinic information portal, and a word search puzzle solver. These projects highlight my versatility in web development and problem-solving.",
@@ -48,7 +48,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Coffee Shop Website',
       description: 'A modern and inviting website for a local coffee shop, featuring menu display, online ordering, and location information.',
-      imageUrl: '/img/coffee.png',
+      imageUrl: 'https://placehold.co/600x400.png',
       dataAiHint: 'coffee shop',
       liveUrl: 'https://jeanberin.github.io/Coffee-Shop/',
       repoUrl: 'https://github.com/jeanberin/Coffee-Shop-Website',
@@ -57,7 +57,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Dental Clinic Website',
       description: 'A professional website for a dental clinic, providing information on services, appointment booking, and patient testimonials.',
-      imageUrl: '/img/dental.png',
+      imageUrl: 'https://placehold.co/600x400.png',
       dataAiHint: 'dental clinic',
       liveUrl: 'https://mberin.github.io/',
       repoUrl: 'https://github.com/mberin/mberin.github.io',
@@ -66,7 +66,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Word Search Puzzle Solver',
       description: 'An efficient algorithm and user interface to solve word search puzzles, demonstrating problem-solving and algorithmic thinking.',
-      imageUrl: '/img/word.png',
+      imageUrl: 'https://placehold.co/600x400.png',
       dataAiHint: 'puzzle game',
       liveUrl: 'https://www.youtube.com/watch?v=-rlgEueerH8',
       repoUrl: 'https://github.com/jeanberin/Word-Search-Puzzle-Solver',
@@ -88,9 +88,9 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     },
   ],
   hobbies: [
-    { name: 'Traveling', description: 'Exploring new cultures, cuisines, and landscapes around the world.', imageUrl: '/img/travel.jfif', dataAiHint: 'travel destination', icon: Plane },
-    { name: 'Watching Movies', description: 'Enjoying a wide range of films, from classic cinema to modern blockbusters.', imageUrl: '/img/movie.webp', dataAiHint: 'movie cinema', icon: Film },
-    { name: 'Playing Video Games', description: 'Engaging in immersive storytelling and strategic gameplay across various genres.', imageUrl: '/img/forza.jpg', dataAiHint: 'video game console', icon: Gamepad2 },
+    { name: 'Traveling', description: 'Exploring new cultures, cuisines, and landscapes around the world.', imageUrl: 'https://placehold.co/600x400.png', dataAiHint: 'travel destination', icon: Plane },
+    { name: 'Watching Movies', description: 'Enjoying a wide range of films, from classic cinema to modern blockbusters.', imageUrl: 'https://placehold.co/600x400.png', dataAiHint: 'movie cinema', icon: Film },
+    { name: 'Playing Video Games', description: 'Engaging in immersive storytelling and strategic gameplay across various genres.', imageUrl: 'https://placehold.co/600x400.png', dataAiHint: 'video game console', icon: Gamepad2 },
   ],
 };
 
