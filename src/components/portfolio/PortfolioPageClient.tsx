@@ -63,31 +63,32 @@ export default function PortfolioPageClient() {
       return null;
     }
 
-    const props: any = { key: `${sectionName}-${index}` };
+    const componentKey = `${sectionName}-${index}`;
+    const componentSpecificProps: any = {};
 
     switch (sectionName) {
       case "About Me":
-        props.content = portfolioState.content.aboutMe;
+        componentSpecificProps.content = portfolioState.content.aboutMe;
         break;
       case "Skills":
-        props.skills = portfolioState.structuredData.skills;
+        componentSpecificProps.skills = portfolioState.structuredData.skills;
         break;
       case "Experience":
-        props.experiences = portfolioState.structuredData.experience;
+        componentSpecificProps.experiences = portfolioState.structuredData.experience;
         break;
       case "Projects":
-        props.projects = portfolioState.structuredData.projects;
+        componentSpecificProps.projects = portfolioState.structuredData.projects;
         break;
       case "Education":
-        props.educations = portfolioState.structuredData.education;
+        componentSpecificProps.educations = portfolioState.structuredData.education;
         break;
       case "Hobbies":
-        props.hobbies = portfolioState.structuredData.hobbies;
+        componentSpecificProps.hobbies = portfolioState.structuredData.hobbies;
         break;
       default:
         return null;
     }
-    return <Component {...props} />;
+    return <Component key={componentKey} {...componentSpecificProps} />;
   };
   
   const nextSectionId = orderedSections.length > 0 ? orderedSections[0].toLowerCase().replace(/\s+/g, '-') : 'about-me';
