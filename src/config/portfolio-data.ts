@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
-  heroTitle: "Jean 👋",
+  heroTitle: "Hi, I'm Jean 👋",
   heroSubtitle: "A passionate Web Developer transforming ideas into innovative web solutions. Explore my journey and projects!",
   aboutMe: "I am a creative and detail-oriented web developer with a strong foundation in front-end and back-end technologies. I thrive on building user-friendly, efficient, and visually appealing web applications. Always eager to learn new skills and take on challenging projects.",
   skills: "I possess a versatile skill set covering full-stack development, including modern JavaScript frameworks, back-end technologies, database management, and DevOps practices. I'm committed to writing clean, efficient code and continuously expanding my technical expertise.",
