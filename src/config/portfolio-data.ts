@@ -49,7 +49,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       role: 'Junior Developer',
       company: 'Megaworld Corporation',
       duration: 'Oct 2024 - Present',
-      description: 'Contributed to the development and implementation of critical internal systems, focusing on HR analytics and operational monitoring using Laravel and JavaScript.',
+      description: '',
       achievements: [
         'Developed data-driven dashboards with Google Charts and backend integration via Laravel, streamlining HR analytics for <strong>3000+ employees</strong>.',
         'Engineered a real-time biometric system dashboard with Laravel and JavaScript to monitor uptime/downtime across <strong>130+ site offices</strong>.',
@@ -117,3 +117,4 @@ export const ctaButtons = [
  { label: 'View Resume', url: '#resume.pdf', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:youremail@example.com', icon: Mail, variant: 'outline' as const},
 ];
+

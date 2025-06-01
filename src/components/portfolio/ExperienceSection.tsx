@@ -25,8 +25,10 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="mb-3 text-foreground whitespace-pre-line">{exp.description}</p>
-                <ul className="space-y-1">
+                {exp.description && (
+                  <p className="mb-3 text-foreground whitespace-pre-line">{exp.description}</p>
+                )}
+                <ul className="space-y-2">
                   {exp.achievements.map((ach, i) => (
                     <li key={i} className="flex items-start text-sm text-muted-foreground">
                       <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-accent shrink-0" />
@@ -42,3 +44,4 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
     </SectionWrapper>
   );
 }
+
