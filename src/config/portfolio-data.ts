@@ -5,6 +5,18 @@ import { DEFAULT_SECTION_ORDER, SECTION_MAP } from '@/types/portfolio';
 import { 
   Plane, Film, Gamepad2, Github, Linkedin, Mail, FileText
 } from 'lucide-react';
+import LaravelIcon from '@/components/icons/skills/LaravelIcon';
+import ReactIcon from '@/components/icons/skills/ReactIcon';
+import JavaScriptIcon from '@/components/icons/skills/JavaScriptIcon';
+import PythonIcon from '@/components/icons/skills/PythonIcon';
+import SqlIcon from '@/components/icons/skills/SqlIcon';
+import MsSqlServerIcon from '@/components/icons/skills/MsSqlServerIcon';
+import BootstrapIcon from '@/components/icons/skills/BootstrapIcon';
+import TailwindIcon from '@/components/icons/skills/TailwindIcon';
+import HtmlCssIcon from '@/components/icons/skills/HtmlCssIcon';
+import DockerIcon from '@/components/icons/skills/DockerIcon';
+import GitIcon from '@/components/icons/skills/GitIcon';
+
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
@@ -33,7 +45,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
   ],
   experience: [
     {
-      role: 'Junior Developer',
+      role: 'Software Developer',
       company: 'Megaworld Corporation',
       duration: 'Oct 2024 - Present',
       description: '',
