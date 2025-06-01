@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { socialLinks } from '@/config/portfolio-data';
 import { Button } from '@/components/ui/button';
@@ -18,12 +19,10 @@ export default function Footer() {
           ))}
         </div>
         <p className="text-sm">
-          &copy; {currentYear} DevFolio Spark. All rights reserved.
-        </p>
-        <p className="text-xs mt-2 text-muted-foreground">
-          Designed with passion and coded with Next.js & Tailwind CSS.
+          &copy; {currentYear} Jean Berin. All rights reserved.
         </p>
       </div>
     </footer>
   );
 }
+
