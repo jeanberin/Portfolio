@@ -1,6 +1,5 @@
 import SectionWrapper from '@/components/common/SectionWrapper';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Progress } from '@/components/ui/progress';
 import type { Skill } from '@/types/portfolio';
 import { Code } from 'lucide-react';
 
@@ -26,21 +25,12 @@ export default function SkillsSection({ overviewText, skills }: SkillsSectionPro
         </CardContent>
       </Card>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {skills.map((skill) => (
           <Card key={skill.name} className="hover:shadow-xl transition-shadow duration-300">
-            <CardHeader className="pb-2">
-              <CardTitle className="text-lg flex items-center font-medium">
-                <skill.icon className="mr-3 h-6 w-6 text-primary" />
-                {skill.name}
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="flex items-center justify-between mb-1">
-                <span className="text-sm text-muted-foreground">Proficiency</span>
-                <span className="text-sm font-semibold text-primary">{skill.proficiency}%</span>
-              </div>
-              <Progress value={skill.proficiency} aria-label={`${skill.name} proficiency ${skill.proficiency}%`} className="h-3" />
+            <CardContent className="pt-6 flex flex-col items-center justify-center">
+              <skill.icon className="mb-3 h-10 w-10 text-primary" />
+              <p className="text-lg font-medium text-center">{skill.name}</p>
             </CardContent>
           </Card>
         ))}

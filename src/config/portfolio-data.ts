@@ -1,12 +1,15 @@
 import type { PortfolioState, PortfolioTextContent, PortfolioStructuredData } from '@/types/portfolio';
 import { DEFAULT_SECTION_ORDER, SECTION_MAP } from '@/types/portfolio';
-import { Briefcase, Code, GraduationCap, LayoutGrid, Smile, User, Rocket, Palette, BookOpen, Github, ExternalLink, Linkedin, Mail, FileText } from 'lucide-react';
+import { 
+  Briefcase, Code, GraduationCap, LayoutGrid, Smile, User, Rocket, Palette, BookOpen, 
+  Github, ExternalLink, Linkedin, Mail, FileText, Database, Server, FileCode, Container, GitBranch
+} from 'lucide-react';
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Alex Developer",
   heroSubtitle: "A passionate Web Developer transforming ideas into innovative web solutions. Explore my journey and projects!",
   aboutMe: "I am a creative and detail-oriented web developer with a strong foundation in front-end and back-end technologies. I thrive on building user-friendly, efficient, and visually appealing web applications. Always eager to learn new skills and take on challenging projects.",
-  skills: "With a diverse toolkit, I specialize in modern JavaScript frameworks like React and Next.js, complemented by Node.js for robust back-end solutions. I'm proficient in UI/UX principles, ensuring intuitive and engaging user experiences. My database expertise includes both SQL and NoSQL solutions.",
+  skills: "I possess a versatile skill set covering full-stack development, including modern JavaScript frameworks, back-end technologies, database management, and DevOps practices. I'm committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "Over the past 5 years, I've contributed to various projects, from dynamic e-commerce platforms to scalable enterprise applications. My roles have involved full-stack development, API integration, and collaborating with cross-functional teams to deliver high-quality software.",
   projects: "I've worked on several exciting projects, including a real-time collaborative editor, a personalized e-learning platform, and a data visualization dashboard for financial analytics. Each project showcases my ability to solve complex problems and deliver impactful results.",
   education: "I hold a Bachelor's degree in Computer Science, where I gained a comprehensive understanding of software engineering principles and data structures. I continuously enhance my knowledge through online courses and certifications in emerging web technologies.",
@@ -15,14 +18,17 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'JavaScript', proficiency: 95, icon: Code },
-    { name: 'TypeScript', proficiency: 90, icon: Code },
-    { name: 'React', proficiency: 92, icon: Rocket },
-    { name: 'Next.js', proficiency: 88, icon: Rocket },
-    { name: 'Node.js', proficiency: 85, icon: Code },
-    { name: 'HTML5 & CSS3', proficiency: 95, icon: Palette },
-    { name: 'Tailwind CSS', proficiency: 90, icon: Palette },
-    { name: 'Git & GitHub', proficiency: 93, icon: Github },
+    { name: 'Laravel', icon: Database }, // Using Database as a proxy for backend framework work
+    { name: 'React', icon: Rocket },
+    { name: 'JavaScript', icon: Code },
+    { name: 'Python', icon: Code }, // Generic Code icon for Python
+    { name: 'SQL', icon: Database },
+    { name: 'MS SQL Server', icon: Server },
+    { name: 'Bootstrap', icon: LayoutGrid },
+    { name: 'Tailwind CSS', icon: Palette },
+    { name: 'HTML/CSS', icon: FileCode },
+    { name: 'Docker', icon: Container },
+    { name: 'Git', icon: GitBranch },
   ],
   experience: [
     {

@@ -2,7 +2,6 @@ import type { LucideIcon } from 'lucide-react';
 
 export interface Skill {
   name: string;
-  proficiency: number; // 0-100
   icon: LucideIcon;
 }
 
