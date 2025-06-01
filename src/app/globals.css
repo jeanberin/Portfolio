@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   :root {
     --background: 220 13% 95%; /* Light Gray #F0F2F5 */
     --foreground: 215 28% 17%; /* Dark Blue-Gray */
