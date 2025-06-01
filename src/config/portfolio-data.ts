@@ -6,19 +6,6 @@ import {
   Plane, Film, Gamepad2, Github, Linkedin, Mail, FileText
 } from 'lucide-react';
 
-import LaravelIcon from '@/components/icons/skills/LaravelIcon';
-import ReactIcon from '@/components/icons/skills/ReactIcon';
-import JavaScriptIcon from '@/components/icons/skills/JavaScriptIcon';
-import PythonIcon from '@/components/icons/skills/PythonIcon';
-import SqlIcon from '@/components/icons/skills/SqlIcon';
-import MsSqlServerIcon from '@/components/icons/skills/MsSqlServerIcon';
-import BootstrapIcon from '@/components/icons/skills/BootstrapIcon';
-import TailwindIcon from '@/components/icons/skills/TailwindIcon';
-import HtmlCssIcon from '@/components/icons/skills/HtmlCssIcon';
-import DockerIcon from '@/components/icons/skills/DockerIcon';
-import GitIcon from '@/components/icons/skills/GitIcon';
-
-
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
   heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
@@ -26,7 +13,7 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
   projects: "My project portfolio includes diverse applications like a coffee shop website, a dental clinic information portal, and a word search puzzle solver. These projects highlight my versatility in web development and problem-solving.",
-  education: "I graduated Cum Laude with a Bachelor of Science in Electronics Engineering from the University of the Philippines Diliman. My engineering background provided a strong analytical foundation, which I apply to software development challenges.",
+  education: "I graduated Cum Laude with a Bachelor of Science in Electronics Engineering from the University of the Philippines Diliman and am a Licensed Electronics Engineer. My engineering background provided a strong analytical foundation, which I apply to software development challenges.",
   hobbies: "Outside of my professional life, I enjoy traveling to new places, immersing myself in films, and engaging in video games. These hobbies offer relaxation and fresh perspectives.",
 };
 
@@ -92,6 +79,12 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       institution: 'University of the Philippines Diliman',
       year: 'Aug 2019 - Sept 2023',
       coursework: [], 
+    },
+    {
+      degree: 'Licensed Electronics Engineer',
+      institution: 'Professional Regulation Commission',
+      year: 'May 2024',
+      coursework: [],
     },
   ],
   hobbies: [
