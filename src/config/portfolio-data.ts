@@ -9,7 +9,7 @@ import {
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
   heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
-  aboutMe: "A licensed Electronics Engineer who discovered a passion for software development. I now apply my strong analytical and problem-solving skills from engineering to build user-friendly, efficient web applications, and I'm always eager to tackle new challenges and technologies.",
+  aboutMe: "I'm a licensed Electronics Engineer who transitioned into software development. I leverage my engineering problem-solving background to build efficient, user-friendly web applications and I'm always eager to learn new technologies.",
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
   projects: "My project portfolio includes diverse applications like a coffee shop website, a dental clinic information portal, and a word search puzzle solver. These projects highlight my versatility in web development and problem-solving.",
@@ -19,17 +19,17 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'Laravel', iconUrl: '/images/skills/laravel.png', dataAiHint: 'laravel logo' },
-    { name: 'React', iconUrl: '/images/skills/react.png', dataAiHint: 'react logo' },
-    { name: 'JavaScript', iconUrl: '/images/skills/js.jpg', dataAiHint: 'javascript logo' },
-    { name: 'Python', iconUrl: '/images/skills/python.png', dataAiHint: 'python logo' },
-    { name: 'SQL', iconUrl: '/images/skills/sql.png', dataAiHint: 'sql logo' },
-    { name: 'MS SQL Server', iconUrl: '/images/skills/mssql.png', dataAiHint: 'mssql logo' },
-    { name: 'Bootstrap', iconUrl: '/images/skills/bootstrap.png', dataAiHint: 'bootstrap logo' },
-    { name: 'Tailwind CSS', iconUrl: '/images/skills/tailwind.png', dataAiHint: 'tailwind logo' },
-    { name: 'HTML/CSS', iconUrl: '/images/skills/htmlcss.png', dataAiHint: 'html css logo' },
-    { name: 'Docker', iconUrl: '/images/skills/docker.png', dataAiHint: 'docker logo' },
-    { name: 'Git', iconUrl: '/images/skills/git.png', dataAiHint: 'git logo' },
+    { name: 'Laravel', iconUrl: '/img/skills/laravel.png', dataAiHint: 'laravel logo' },
+    { name: 'React', iconUrl: '/img/skills/react.png', dataAiHint: 'react logo' },
+    { name: 'JavaScript', iconUrl: '/img/skills/js.png', dataAiHint: 'javascript logo' }, // Assuming js.png, adjust if it's js.jpg
+    { name: 'Python', iconUrl: '/img/skills/python.png', dataAiHint: 'python logo' },
+    { name: 'SQL', iconUrl: '/img/skills/sql.png', dataAiHint: 'sql logo' },
+    { name: 'MS SQL Server', iconUrl: '/img/skills/mssql.png', dataAiHint: 'mssql logo' },
+    { name: 'Bootstrap', iconUrl: '/img/skills/bootstrap.png', dataAiHint: 'bootstrap logo' },
+    { name: 'Tailwind CSS', iconUrl: '/img/skills/tailwind.png', dataAiHint: 'tailwind logo' },
+    { name: 'HTML/CSS', iconUrl: '/img/skills/htmlcss.png', dataAiHint: 'html css logos' },
+    { name: 'Docker', iconUrl: '/img/skills/docker.png', dataAiHint: 'docker logo' },
+    { name: 'Git', iconUrl: '/img/skills/git.png', dataAiHint: 'git logo' },
   ],
   experience: [
     {
@@ -48,8 +48,8 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Coffee Shop Website',
       description: 'A modern and inviting website for a local coffee shop, featuring menu display, online ordering, and location information.',
-      imageUrl: 'https://placehold.co/600x400.png',
-      dataAiHint: 'coffee shop',
+      imageUrl: '/img/projects/coffee-shop.png', // Updated path
+      dataAiHint: 'coffee shop website',
       liveUrl: 'https://jeanberin.github.io/Coffee-Shop/',
       repoUrl: 'https://github.com/jeanberin/Coffee-Shop-Website',
       technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -57,8 +57,8 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Dental Clinic Website',
       description: 'A professional website for a dental clinic, providing information on services, appointment booking, and patient testimonials.',
-      imageUrl: 'https://placehold.co/600x400.png',
-      dataAiHint: 'dental clinic',
+      imageUrl: '/img/projects/dental-clinic.png', // Updated path
+      dataAiHint: 'dental clinic website',
       liveUrl: 'https://mberin.github.io/',
       repoUrl: 'https://github.com/mberin/mberin.github.io',
       technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -66,8 +66,8 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Word Search Puzzle Solver',
       description: 'An efficient algorithm and user interface to solve word search puzzles, demonstrating problem-solving and algorithmic thinking.',
-      imageUrl: 'https://placehold.co/600x400.png',
-      dataAiHint: 'puzzle game',
+      imageUrl: '/img/projects/word-search.png', // Updated path
+      dataAiHint: 'word puzzle game',
       liveUrl: 'https://www.youtube.com/watch?v=-rlgEueerH8',
       repoUrl: 'https://github.com/jeanberin/Word-Search-Puzzle-Solver',
       technologies: ['Python', 'Algorithm'],
