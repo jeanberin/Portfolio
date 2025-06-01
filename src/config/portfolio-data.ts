@@ -5,23 +5,11 @@ import { DEFAULT_SECTION_ORDER, SECTION_MAP } from '@/types/portfolio';
 import { 
   Plane, Film, Gamepad2, Github, Linkedin, Mail, FileText
 } from 'lucide-react';
-import LaravelIcon from '@/components/icons/skills/LaravelIcon';
-import ReactIcon from '@/components/icons/skills/ReactIcon';
-import JavaScriptIcon from '@/components/icons/skills/JavaScriptIcon';
-import PythonIcon from '@/components/icons/skills/PythonIcon';
-import SqlIcon from '@/components/icons/skills/SqlIcon';
-import MsSqlServerIcon from '@/components/icons/skills/MsSqlServerIcon';
-import BootstrapIcon from '@/components/icons/skills/BootstrapIcon';
-import TailwindIcon from '@/components/icons/skills/TailwindIcon';
-import HtmlCssIcon from '@/components/icons/skills/HtmlCssIcon';
-import DockerIcon from '@/components/icons/skills/DockerIcon';
-import GitIcon from '@/components/icons/skills/GitIcon';
-
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
   heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
-  aboutMe: "I am a creative and detail-oriented web developer with a strong foundation in front-end and back-end technologies. I thrive on building user-friendly, efficient, and visually appealing web applications. Always eager to learn new skills and take on challenging projects.",
+  aboutMe: "As a licensed Electronics Engineer, I discovered my passion for software development and made a dedicated shift into this dynamic field. My engineering background has equipped me with strong analytical and problem-solving skills, which I now apply to building user-friendly, efficient, and visually appealing web applications. I thrive on transforming complex challenges into elegant software solutions and am always eager to learn new technologies and take on innovative projects.",
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
   projects: "My project portfolio includes diverse applications like a coffee shop website, a dental clinic information portal, and a word search puzzle solver. These projects highlight my versatility in web development and problem-solving.",
