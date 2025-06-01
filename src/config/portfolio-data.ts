@@ -1,15 +1,27 @@
 
-import type { PortfolioState, PortfolioTextContent, PortfolioStructuredData } from '@/types/portfolio';
+import type { PortfolioState, PortfolioTextContent, PortfolioStructuredData, Skill } from '@/types/portfolio';
+import type { LucideIcon } from 'lucide-react';
 import { DEFAULT_SECTION_ORDER, SECTION_MAP } from '@/types/portfolio';
 import { 
   Plane, Film, Gamepad2, Github, Linkedin, Mail, FileText
 } from 'lucide-react';
 
-// Custom SVG icon imports are no longer needed here
+import LaravelIcon from '@/components/icons/skills/LaravelIcon';
+import ReactIcon from '@/components/icons/skills/ReactIcon';
+import JavaScriptIcon from '@/components/icons/skills/JavaScriptIcon';
+import PythonIcon from '@/components/icons/skills/PythonIcon';
+import SqlIcon from '@/components/icons/skills/SqlIcon';
+import MsSqlServerIcon from '@/components/icons/skills/MsSqlServerIcon';
+import BootstrapIcon from '@/components/icons/skills/BootstrapIcon';
+import TailwindIcon from '@/components/icons/skills/TailwindIcon';
+import HtmlCssIcon from '@/components/icons/skills/HtmlCssIcon';
+import DockerIcon from '@/components/icons/skills/DockerIcon';
+import GitIcon from '@/components/icons/skills/GitIcon';
+
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
-  heroSubtitle: "A passionate Web Developer transforming ideas into innovative web solutions. Explore my journey and projects!",
+  heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
   aboutMe: "I am a creative and detail-oriented web developer with a strong foundation in front-end and back-end technologies. I thrive on building user-friendly, efficient, and visually appealing web applications. Always eager to learn new skills and take on challenging projects.",
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
@@ -20,17 +32,17 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'Laravel', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'laravel logo' },
-    { name: 'React', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'react logo' },
-    { name: 'JavaScript', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'javascript logo' },
-    { name: 'Python', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'python logo' },
-    { name: 'SQL', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'sql logo' },
-    { name: 'MS SQL Server', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'mssql logo' },
-    { name: 'Bootstrap', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'bootstrap logo' },
-    { name: 'Tailwind CSS', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'tailwind logo' },
-    { name: 'HTML/CSS', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'html css logo' },
-    { name: 'Docker', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'docker logo' },
-    { name: 'Git', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'git logo' },
+    { name: 'Laravel', iconUrl: '/images/skills/laravel.png', dataAiHint: 'laravel logo' },
+    { name: 'React', iconUrl: '/images/skills/react.png', dataAiHint: 'react logo' },
+    { name: 'JavaScript', iconUrl: '/images/skills/javascript.png', dataAiHint: 'javascript logo' },
+    { name: 'Python', iconUrl: '/images/skills/python.png', dataAiHint: 'python logo' },
+    { name: 'SQL', iconUrl: '/images/skills/sql.png', dataAiHint: 'sql logo' },
+    { name: 'MS SQL Server', iconUrl: '/images/skills/mssql.png', dataAiHint: 'mssql logo' },
+    { name: 'Bootstrap', iconUrl: '/images/skills/bootstrap.png', dataAiHint: 'bootstrap logo' },
+    { name: 'Tailwind CSS', iconUrl: '/images/skills/tailwind.png', dataAiHint: 'tailwind logo' },
+    { name: 'HTML/CSS', iconUrl: '/images/skills/htmlcss.png', dataAiHint: 'html css logo' },
+    { name: 'Docker', iconUrl: '/images/skills/docker.png', dataAiHint: 'docker logo' },
+    { name: 'Git', iconUrl: '/images/skills/git.png', dataAiHint: 'git logo' },
   ],
   experience: [
     {
@@ -105,3 +117,4 @@ export const ctaButtons = [
  { label: 'View Resume', url: '#resume.pdf', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:youremail@example.com', icon: Mail, variant: 'outline' as const},
 ];
+
