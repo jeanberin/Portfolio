@@ -53,7 +53,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       dataAiHint: 'coffee shop',
       liveUrl: '#',
       repoUrl: '#',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Frontend'],
+      technologies: ['HTML', 'CSS', 'JavaScript'],
     },
     {
       title: 'Dental Clinic Website',
@@ -62,7 +62,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       dataAiHint: 'dental clinic',
       liveUrl: '#',
       repoUrl: '#',
-      technologies: ['React', 'Node.js', 'Database'],
+      technologies: ['HTML', 'CSS', 'JavaScript'],
     },
     {
       title: 'Word Search Puzzle Solver',
@@ -71,7 +71,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       dataAiHint: 'puzzle game',
       liveUrl: '#',
       repoUrl: '#',
-      technologies: ['Python', 'Algorithm', 'UI/UX'],
+      technologies: ['Python', 'Algorithm'],
     },
   ],
   education: [
