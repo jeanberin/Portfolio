@@ -1,8 +1,9 @@
+import type { SVGProps } from 'react';
 import type { LucideIcon } from 'lucide-react';
 
 export interface Skill {
   name: string;
-  icon: LucideIcon;
+  icon: React.FC<SVGProps<SVGSVGElement>>; // Changed from LucideIcon
 }
 
 export interface Experience {
@@ -34,7 +35,7 @@ export interface Hobby {
   name: string;
   description: string;
   imageUrl?: string;
-  icon?: LucideIcon;
+  icon?: LucideIcon; // Hobby icons can remain Lucide or be updated later
   dataAiHint?: string;
 }
 
