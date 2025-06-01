@@ -1,8 +1,10 @@
 import type { SVGProps } from 'react';
 
 const SqlIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
-    <path d="M12 4c-3.87 0-7 1.34-7 3v4c0 1.66 3.13 3 7 3s7-1.34 7-3V7c0-1.66-3.13-3-7-3zm0 2c2.76 0 5 .9 5 2s-2.24 2-5 2-5-.9-5-2 2.24-2 5-2zm0 7c-3.87 0-7 1.34-7 3v4c0 1.66 3.13 3 7 3s7-1.34 7-3v-4c0-1.66-3.13-3-7-3zm0 2c2.76 0 5 .9 5 2s-2.24 2-5 2-5-.9-5-2 2.24-2 5-2z" />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
+    <path fill="#00758F" d="M64 10c-24.853 0-45 13.431-45 30v18c0 16.569 20.147 30 45 30s45-13.431 45-30V40c0-16.569-20.147-30-45-30zm0 10c19.33 0 35 8.954 35 20s-15.67 20-35 20-35-8.954-35-20 15.67-20 35-20z"/>
+    <path fill="#00758F" d="M64 60c-24.853 0-45 13.431-45 30v18c0 16.569 20.147 30 45 30s45-13.431 45-30V90c0-16.569-20.147-30-45-30zm0 10c19.33 0 35 8.954 35 20s-15.67 20-35 20-35-8.954-35-20 15.67-20 35-20z"/>
+    <text x="64" y="77" fontFamily="Arial, sans-serif" fontSize="30" fill="white" textAnchor="middle" fontWeight="bold">SQL</text>
   </svg>
 );
 export default SqlIcon;

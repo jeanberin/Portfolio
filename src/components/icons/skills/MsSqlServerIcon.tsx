@@ -1,10 +1,12 @@
 import type { SVGProps } from 'react';
 
 const MsSqlServerIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
-    <path d="M5 4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v2H5V4zm0 14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-2H5v2zm14-3V7c0-1.1-.9-2-2-2h-1.5v2H17v2h-2V7h-2v2h-2V7H9v2H7V7H5.5v2H4V7c0-1.1-.9-2-2-2S0 5.9 0 7v10c0 1.1.9 2 2 2s2-.9 2-2V9h1.5v10H12v-2h-1.5V9H12v2h2V9h1.5v2H17V9h2c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2s-2-.9-2-2v-2h-1.5v2H15v2h4c1.1 0 2-.9 2-2v-2h-2z M12 13.5c-2.48 0-4.5-2.02-4.5-4.5S9.52 4.5 12 4.5s4.5 2.02 4.5 4.5-2.02 4.5-4.5 4.5zm0-7c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5z" />
-    <path fill="#cc2927" d="M4.5 9.5h3V8h-3zM4.5 12.5h3V11h-3zM4.5 15.5h3V14h-3z" />
-    <text x="12" y="19" fontFamily="Arial, sans-serif" fontSize="4" fill="white" textAnchor="middle" dominantBaseline="middle">SQL</text>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" {...props}>
+    <path fill="#A9A9A9" d="M24.9 114.9h78.2v-9.3H24.9v9.3zm0-15.5h78.2v-9.3H24.9v9.3zm0-15.6h78.2V74.5H24.9v9.3z"/>
+    <path fill="#F35325" d="M103.1 13.1H24.9c-4.4 0-8 3.6-8 8V68h94.2V21.1c0-4.4-3.6-8-8-8z"/>
+    <path fill="#DC3912" d="M16.9 68v31.4c0 4.4 3.6 8 8 8h78.2c4.4 0 8-3.6 8-8V68H16.9z"/>
+    <path fill="#fff" d="M40.4 82.9h9.9v16.2h-9.9V82.9zm15.5 0h9.9v16.2h-9.9V82.9zm15.6 0h9.9v16.2h-9.9V82.9zM43.1 35.4h16.8c3.2 0 5.8 1.1 7.7 3.3 1.9 2.2 2.9 5.1 2.9 8.7 0 3.3-.8 6-2.5 8s-4 3.4-6.8 4l8.1 9.9h-8.3l-7.3-9.3h-3.8v9.3h-6.8V35.4zm6.8 13.6h7.3c1.7 0 3-.5 3.9-1.4s1.4-2.3 1.4-4.1-.5-3.1-1.4-4-2.2-1.4-3.9-1.4h-7.3v10.9z"/>
+    <path fill="#fff" d="M72.7 35.4H90c3.2 0 5.8 1.1 7.7 3.3 1.9 2.2 2.9 5.1 2.9 8.7 0 3.3-.8 6-2.5 8s-4 3.4-6.8 4l8.1 9.9h-8.3L81.8 59h-3.8v9.3h-6.8V35.4zm6.8 13.6h7.3c1.7 0 3-.5 3.9-1.4s1.4-2.3 1.4-4.1-.5-3.1-1.4-4-2.2-1.4-3.9-1.4h-7.3v10.9z"/>
   </svg>
 );
 export default MsSqlServerIcon;
