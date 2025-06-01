@@ -44,20 +44,6 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
         'Provided technical support during the transition from manual attendance systems to biometric systems with real-time log uploading across multiple offices.',
       ],
     },
-    {
-      role: 'Senior Web Developer',
-      company: 'Tech Solutions Inc.',
-      duration: 'Jan 2021 - Sep 2024',
-      description: 'Led development of key features for a flagship SaaS product, improving performance and user engagement.',
-      achievements: ['Reduced page load times by 30%', 'Mentored junior developers', 'Integrated third-party APIs'],
-    },
-    {
-      role: 'Full-Stack Developer',
-      company: 'Innovate Web Co.',
-      duration: 'Jun 2018 - Dec 2020',
-      description: 'Developed and maintained client websites, focusing on e-commerce solutions and custom web applications.',
-      achievements: ['Launched 10+ client projects', 'Improved checkout conversion by 15%', 'Implemented responsive designs'],
-    },
   ],
   projects: [
     {
