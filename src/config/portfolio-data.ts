@@ -9,7 +9,7 @@ import {
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
   heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
-  aboutMe: "I'm a licensed Electronics Engineer who transitioned into software development. I leverage my engineering problem-solving background to build efficient, user-friendly web applications and I'm always eager to learn new technologies.",
+  aboutMe: "I'm an Electronics Engineer who transitioned to software development, leveraging my engineering problem-solving skills to build efficient, user-friendly web applications. I'm always eager to learn new technologies.",
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
   projects: "My project portfolio includes diverse applications like a coffee shop website, a dental clinic information portal, and a word search puzzle solver. These projects highlight my versatility in web development and problem-solving.",
@@ -21,7 +21,8 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
     { name: 'Laravel', iconUrl: '/img/skills/laravel.png', dataAiHint: 'laravel logo' },
     { name: 'React', iconUrl: '/img/skills/react.png', dataAiHint: 'react logo' },
-    { name: 'JavaScript', iconUrl: '/img/skills/js.png', dataAiHint: 'javascript logo' }, // Assuming js.png, adjust if it's js.jpg
+    { name: 'PHP', iconUrl: '/img/skills/php.png', dataAiHint: 'php logo' },
+    { name: 'JavaScript', iconUrl: '/img/skills/js.png', dataAiHint: 'javascript logo' }, 
     { name: 'Python', iconUrl: '/img/skills/python.png', dataAiHint: 'python logo' },
     { name: 'SQL', iconUrl: '/img/skills/sql.png', dataAiHint: 'sql logo' },
     { name: 'MS SQL Server', iconUrl: '/img/skills/mssql.png', dataAiHint: 'mssql logo' },
@@ -48,7 +49,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Coffee Shop Website',
       description: 'A modern and inviting website for a local coffee shop, featuring menu display, online ordering, and location information.',
-      imageUrl: '/img/projects/coffee-shop.png', // Updated path
+      imageUrl: '/img/projects/coffee-shop.png', 
       dataAiHint: 'coffee shop website',
       liveUrl: 'https://jeanberin.github.io/Coffee-Shop/',
       repoUrl: 'https://github.com/jeanberin/Coffee-Shop-Website',
@@ -57,7 +58,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Dental Clinic Website',
       description: 'A professional website for a dental clinic, providing information on services, appointment booking, and patient testimonials.',
-      imageUrl: '/img/projects/dental-clinic.png', // Updated path
+      imageUrl: '/img/projects/dental-clinic.png', 
       dataAiHint: 'dental clinic website',
       liveUrl: 'https://mberin.github.io/',
       repoUrl: 'https://github.com/mberin/mberin.github.io',
@@ -66,7 +67,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     {
       title: 'Word Search Puzzle Solver',
       description: 'An efficient algorithm and user interface to solve word search puzzles, demonstrating problem-solving and algorithmic thinking.',
-      imageUrl: '/img/projects/word-search.png', // Updated path
+      imageUrl: '/img/projects/word-search.png', 
       dataAiHint: 'word puzzle game',
       liveUrl: 'https://www.youtube.com/watch?v=-rlgEueerH8',
       repoUrl: 'https://github.com/jeanberin/Word-Search-Puzzle-Solver',
