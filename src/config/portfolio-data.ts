@@ -110,7 +110,7 @@ export const socialLinks = [
 ];
 
 export const ctaButtons = [
- { label: 'View Resume', url: '#resume.pdf', icon: FileText, variant: 'default' as const },
+ { label: 'View Resume', url: 'https://drive.google.com/file/d/1aXg7ax5OXlD23GvoOFW6czi5xEVBIMvP/view?usp=sharing', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:berinjeanfrancoisthomas@gmail.com', icon: Mail, variant: 'outline' as const},
 ];
 
