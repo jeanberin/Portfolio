@@ -13,8 +13,8 @@ export default function AboutMeSection({ content }: AboutMeSectionProps) {
       <div className="grid md:grid-cols-3 gap-8 items-center">
         <div className="md:col-span-1 flex justify-center">
           <Image
-            src="https://placehold.co/300x300.png"
-            alt="Alex Developer"
+            src="/img/about.webp"
+            alt="profile picture"
             width={300}
             height={300}
             className="rounded-full shadow-xl border-4 border-primary object-cover"
