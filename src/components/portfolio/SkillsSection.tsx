@@ -1,7 +1,8 @@
+
 import SectionWrapper from '@/components/common/SectionWrapper';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import type { Skill } from '@/types/portfolio';
-import { Code } from 'lucide-react';
+import Image from 'next/image'; // Import next/image
 
 interface SkillsSectionProps {
   skills: Skill[];
@@ -10,12 +11,21 @@ interface SkillsSectionProps {
 export default function SkillsSection({ skills }: SkillsSectionProps) {
   return (
     <SectionWrapper id="skills" title="My Skills" subtitle="Technologies and tools I excel in.">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
         {skills.map((skill) => (
           <Card key={skill.name} className="hover:shadow-xl transition-shadow duration-300">
-            <CardContent className="pt-6 flex flex-col items-center justify-center">
-              <skill.icon className="mb-3 h-10 w-10 text-primary" />
-              <p className="text-lg font-medium text-center">{skill.name}</p>
+            <CardContent className="pt-6 flex flex-col items-center justify-center aspect-square">
+              <div className="relative h-10 w-10 mb-3">
+                <Image
+                  src={skill.iconUrl}
+                  alt={`${skill.name} logo`}
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                  data-ai-hint={skill.dataAiHint || skill.name.toLowerCase() + " logo"}
+                />
+              </div>
+              <p className="text-base font-medium text-center text-foreground">{skill.name}</p>
             </CardContent>
           </Card>
         ))}

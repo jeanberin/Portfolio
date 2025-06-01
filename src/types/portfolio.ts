@@ -1,9 +1,11 @@
+
 import type { SVGProps } from 'react';
 import type { LucideIcon } from 'lucide-react';
 
 export interface Skill {
   name: string;
-  icon: React.FC<SVGProps<SVGSVGElement>>; // Changed from LucideIcon
+  iconUrl: string; // Changed from 'icon' which was an SVG component
+  dataAiHint?: string; // Optional hint for placeholder images
 }
 
 export interface Experience {
@@ -35,23 +37,21 @@ export interface Hobby {
   name: string;
   description: string;
   imageUrl?: string;
-  icon?: LucideIcon; // Hobby icons can remain Lucide or be updated later
+  icon?: LucideIcon;
   dataAiHint?: string;
 }
 
-// Content primarily for AI customization (textual)
 export interface PortfolioTextContent {
   heroTitle: string;
   heroSubtitle: string;
   aboutMe: string;
-  skills: string; // Textual overview/summary for skills
-  experience: string; // Textual overview/summary for experience
-  projects: string; // Textual overview/summary for projects
-  education: string; // Textual overview/summary for education
-  hobbies: string; // Textual overview/summary for hobbies
+  skills: string;
+  experience: string;
+  projects: string;
+  education: string;
+  hobbies: string;
 }
 
-// Structured data for detailed rendering
 export interface PortfolioStructuredData {
   skills: Skill[];
   experience: Experience[];
@@ -60,9 +60,8 @@ export interface PortfolioStructuredData {
   hobbies: Hobby[];
 }
 
-// Combined state for the portfolio
 export interface PortfolioState {
-  sections: string[]; // Order of sections
+  sections: string[];
   content: PortfolioTextContent;
   structuredData: PortfolioStructuredData;
 }

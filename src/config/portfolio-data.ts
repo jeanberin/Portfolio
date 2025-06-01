@@ -5,19 +5,7 @@ import {
   Plane, Film, Gamepad2, Github, Linkedin, Mail, FileText
 } from 'lucide-react';
 
-// Import custom SVG icons for skills
-import LaravelIcon from '@/components/icons/skills/LaravelIcon';
-import ReactIcon from '@/components/icons/skills/ReactIcon';
-import JavaScriptIcon from '@/components/icons/skills/JavaScriptIcon';
-import PythonIcon from '@/components/icons/skills/PythonIcon';
-import SqlIcon from '@/components/icons/skills/SqlIcon';
-import MsSqlServerIcon from '@/components/icons/skills/MsSqlServerIcon';
-import BootstrapIcon from '@/components/icons/skills/BootstrapIcon';
-import TailwindIcon from '@/components/icons/skills/TailwindIcon';
-import HtmlCssIcon from '@/components/icons/skills/HtmlCssIcon';
-import DockerIcon from '@/components/icons/skills/DockerIcon';
-import GitIcon from '@/components/icons/skills/GitIcon';
-
+// Custom SVG icon imports are no longer needed here
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
@@ -32,17 +20,17 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'Laravel', icon: LaravelIcon },
-    { name: 'React', icon: ReactIcon },
-    { name: 'JavaScript', icon: JavaScriptIcon },
-    { name: 'Python', icon: PythonIcon },
-    { name: 'SQL', icon: SqlIcon },
-    { name: 'MS SQL Server', icon: MsSqlServerIcon },
-    { name: 'Bootstrap', icon: BootstrapIcon },
-    { name: 'Tailwind CSS', icon: TailwindIcon },
-    { name: 'HTML/CSS', icon: HtmlCssIcon },
-    { name: 'Docker', icon: DockerIcon },
-    { name: 'Git', icon: GitIcon },
+    { name: 'Laravel', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'laravel logo' },
+    { name: 'React', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'react logo' },
+    { name: 'JavaScript', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'javascript logo' },
+    { name: 'Python', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'python logo' },
+    { name: 'SQL', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'sql logo' },
+    { name: 'MS SQL Server', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'mssql logo' },
+    { name: 'Bootstrap', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'bootstrap logo' },
+    { name: 'Tailwind CSS', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'tailwind logo' },
+    { name: 'HTML/CSS', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'html css logo' },
+    { name: 'Docker', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'docker logo' },
+    { name: 'Git', iconUrl: 'https://placehold.co/40x40.png', dataAiHint: 'git logo' },
   ],
   experience: [
     {
@@ -117,4 +105,3 @@ export const ctaButtons = [
  { label: 'View Resume', url: '#resume.pdf', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:youremail@example.com', icon: Mail, variant: 'outline' as const},
 ];
-
