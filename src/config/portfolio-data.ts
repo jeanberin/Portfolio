@@ -1,3 +1,4 @@
+
 import type { PortfolioState, PortfolioTextContent, PortfolioStructuredData } from '@/types/portfolio';
 import { DEFAULT_SECTION_ORDER, SECTION_MAP } from '@/types/portfolio';
 import { 
@@ -6,7 +7,7 @@ import {
 } from 'lucide-react';
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
-  heroTitle: "Hi, I'm Alex Developer",
+  heroTitle: "Jean 👋",
   heroSubtitle: "A passionate Web Developer transforming ideas into innovative web solutions. Explore my journey and projects!",
   aboutMe: "I am a creative and detail-oriented web developer with a strong foundation in front-end and back-end technologies. I thrive on building user-friendly, efficient, and visually appealing web applications. Always eager to learn new skills and take on challenging projects.",
   skills: "I possess a versatile skill set covering full-stack development, including modern JavaScript frameworks, back-end technologies, database management, and DevOps practices. I'm committed to writing clean, efficient code and continuously expanding my technical expertise.",
@@ -18,10 +19,10 @@ export const initialPortfolioTextContent: PortfolioTextContent = {
 
 export const initialPortfolioStructuredData: PortfolioStructuredData = {
   skills: [
-    { name: 'Laravel', icon: Database }, // Using Database as a proxy for backend framework work
+    { name: 'Laravel', icon: Database },
     { name: 'React', icon: Rocket },
     { name: 'JavaScript', icon: Code },
-    { name: 'Python', icon: Code }, // Generic Code icon for Python
+    { name: 'Python', icon: Code },
     { name: 'SQL', icon: Database },
     { name: 'MS SQL Server', icon: Server },
     { name: 'Bootstrap', icon: LayoutGrid },
@@ -112,3 +113,4 @@ export const ctaButtons = [
  { label: 'View Resume', url: '#resume.pdf', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:youremail@example.com', icon: Mail, variant: 'outline' as const},
 ];
+
