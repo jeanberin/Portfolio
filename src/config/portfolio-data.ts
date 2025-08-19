@@ -91,7 +91,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
     },
   ],
   hobbies: [
-    { name: 'Traveling', description: 'Exploring new cultures, cuisines, and landscapes around the world.', imageUrl: '/img/travel.jfif', dataAiHint: 'travel destination', icon: Plane },
+    { name: 'Traveling', description: 'Exploring new cultures, cuisines, and landscapes around the world.', imageUrl: '/img/travel.jpg', dataAiHint: 'travel destination', icon: Plane },
     { name: 'Watching Movies', description: 'Enjoying a wide range of films, from classic cinema to modern blockbusters.', imageUrl: '/img/movie.webp', dataAiHint: 'movie cinema', icon: Film },
     { name: 'Playing Video Games', description: 'Engaging in immersive storytelling and strategic gameplay across various genres.', imageUrl: '/img/forza.jpg', dataAiHint: 'video game console', icon: Gamepad2 },
   ],
