@@ -8,7 +8,7 @@ import {
 
 export const initialPortfolioTextContent: PortfolioTextContent = {
   heroTitle: "Hi, I'm Jean 👋",
-  heroSubtitle: "A passionate software developer transforming ideas into innovative software solutions",
+  heroSubtitle: "A passionate software engineer transforming ideas into innovative software solutions",
   aboutMe: "I'm an Electronics Engineer who transitioned to software development, leveraging my engineering problem-solving skills to build efficient, user-friendly web applications. I'm always eager to learn new technologies.",
   skills: "I possess a versatile skill set covering full-stack development. My toolbox includes modern JavaScript frameworks like React, robust back-end technologies such as Laravel and Python, comprehensive database management with SQL and MS SQL Server, and responsive front-end design using Bootstrap, Tailwind CSS, HTML, and CSS. I'm also proficient in DevOps practices with Docker and version control using Git, committed to writing clean, efficient code and continuously expanding my technical expertise.",
   experience: "My professional journey includes roles where I've developed impactful solutions, such as data-driven HR dashboards and real-time monitoring systems. I thrive in environments that allow me to leverage my skills in Laravel, JavaScript, and backend development to solve real-world problems.",
@@ -36,7 +36,7 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
   ],
   experience: [
     {
-      role: 'Software Developer',
+      role: 'Junior Developer',
       company: 'Megaworld Corporation',
       duration: 'Oct 2024 - Present',
       description: '',
@@ -110,7 +110,7 @@ export const socialLinks = [
 ];
 
 export const ctaButtons = [
- { label: 'View Resume', url: 'https://drive.google.com/file/d/1ABU2qT3uln6cRklVX06OIKJ2vTuscQMt/view?usp=drivesdk', icon: FileText, variant: 'default' as const },
+ { label: 'View Resume', url: 'https://drive.google.com/file/d/1CAYkbnBpU8xGEfoV5lA1WY2arYMS1C3_/view?usp=drivesdk', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:berinjeanfrancoisthomas@gmail.com', icon: Mail, variant: 'outline' as const},
 ];
 
