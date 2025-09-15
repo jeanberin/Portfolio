@@ -43,6 +43,8 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
       achievements: [
         'Developed data-driven dashboards with Google Charts and backend integration via Laravel, streamlining HR analytics for <strong>20,000+ employees</strong>.',
         'Engineered a real-time biometric system dashboard with Laravel and JavaScript to monitor uptime/downtime across <strong>140+ site offices</strong>.',
+        'Built an automated travel authorization system with Laravel, JavaScript, and Docker, streamlining requests, approvals, booking confirmations, and notifications.',
+        'Executed database migrations across projects to ensure data integrity and reliable system performance.',
         'Provided technical support during the transition from manual attendance systems to biometric systems with real-time log uploading across <strong>multiple offices</strong>.',
       ],
     },
