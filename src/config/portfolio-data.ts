@@ -44,8 +44,8 @@ export const initialPortfolioStructuredData: PortfolioStructuredData = {
         'Developed data-driven dashboards with Google Charts and backend integration via Laravel, streamlining HR analytics for <strong>20,000+ employees</strong>.',
         'Engineered a real-time biometric system dashboard with Laravel and JavaScript to monitor uptime/downtime across <strong>140+ site offices</strong>.',
         'Built an automated travel authorization system with Laravel, JavaScript, and Docker, streamlining requests, approvals, booking confirmations, and notifications.',
+        'Optimized biometric log uploads from <strong>140+</strong> offices using batching and Redis caching, cutting storage by <strong>35%</strong> and boosting upload speed by <strong>60%</strong>.',
         'Executed database migrations across projects to ensure data integrity and reliable system performance.',
-        'Provided technical support during the transition from manual attendance systems to biometric systems with real-time log uploading across <strong>multiple offices</strong>.',
       ],
     },
   ],
@@ -112,7 +112,7 @@ export const socialLinks = [
 ];
 
 export const ctaButtons = [
- { label: 'View Resume', url: 'https://drive.google.com/file/d/1Rc2EYrYnmxZb7H41ffVVf0eH_VuovtBj/view?usp=sharing', icon: FileText, variant: 'default' as const },
+ { label: 'View Resume', url: 'https://drive.google.com/file/d/1GzJHLeFOr4HQDrjKa4CySH962HrGU5lN/view?usp=sharing', icon: FileText, variant: 'default' as const },
  { label: 'Contact Me', url: 'mailto:berinjeanfrancoisthomas@gmail.com', icon: Mail, variant: 'outline' as const},
 ];
 
